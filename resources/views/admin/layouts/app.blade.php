@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>{{ $generalSettings->app_name ?? 'Codzshop Admin Panel' }}</title>
+	<title>{{ $generalSettings->app_name ?? 'gmshopbd Admin Panel' }}</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="icon" href="/logo.png">

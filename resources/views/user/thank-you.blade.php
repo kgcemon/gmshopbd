@@ -170,7 +170,7 @@
                 <div class="op-sup-icon">💬</div>
                 <div>
                     <div class="op-sup-title">Facebook</div>
-                    <div class="op-sup-sub"><a href="https://m.me/Codzshop">m.me/Codzshop</a></div>
+                    <div class="op-sup-sub"><a href="https://m.me/gmshopbd">m.me/gmshopbd</a></div>
                 </div>
             </div>
         </div>

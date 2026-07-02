@@ -12,12 +12,12 @@ class Notification
     /**
      * Firebase Project ID
      */
-    private string $projectId = 'codzshop-1e8e6';
+    private string $projectId = 'gmshopbd-1e8e6';
 
     public function __construct()
     {
         $this->serviceAccountFile = storage_path(
-            'app/firebase/codzshop-1e8e6-firebase-adminsdk-fbsvc-1c624ff6da.json'
+            'app/firebase/gmshopbd-1e8e6-firebase-adminsdk-fbsvc-1c624ff6da.json'
         );
     }
 

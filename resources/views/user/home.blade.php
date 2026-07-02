@@ -2,7 +2,7 @@
 
 @section('title', "Free Fire Diamond Top Up BD bkash")
 @section('meta_description', 'Free Fire Diamond top up BD Bkash website in Bangladesh. Here you can easily recharge your favorite games like Free Fire Diamonds and more')
-@section('meta_keywords', 'free fire diamond top up bd bkash,free fire diamond top up,Codzshop,ff top up, top up, codm shop bd')
+@section('meta_keywords', 'free fire diamond top up bd bkash,free fire diamond top up,gmshopbd,ff top up, top up, codm shop bd')
 
 @section('content')
 
@@ -51,7 +51,7 @@
         <div class="card-title"><p>
                 Call: 01828861788 <br>
                 whatsApp: 01828861788 <br>
-                facebook : <a href="https://m.me/Codzshop">Codzshop</a>
+                facebook : <a href="https://m.me/gmshopbd">gmshopbd</a>
             </p></div>
     </div>
     <br>
@@ -82,11 +82,11 @@
             {
               "@context": "https://schema.org",
               "@type": "Store",
-              "name": "Codzshop",
-              "url": "https://codzshop.com",
-              "logo": "https://codzshop.com/logo.png",
-              "image": "https://codzshop.com/assets/banner.webp",
-              "description": "Codzshop.com is Bangladesh's trusted gaming top-up service for Free Fire, PUBG, MLBB, and other popular games. Fast delivery, secure payment, and 24/7 support.",
+              "name": "gmshopbd",
+              "url": "https://gmshopbd.com",
+              "logo": "https://gmshopbd.com/logo.png",
+              "image": "https://gmshopbd.com/assets/banner.webp",
+              "description": "gmshopbd.com is Bangladesh's trusted gaming top-up service for Free Fire, PUBG, MLBB, and other popular games. Fast delivery, secure payment, and 24/7 support.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Mirpur 2",
@@ -94,8 +94,8 @@
                 "addressCountry": "Bangladesh"
               },
               "telephone": "+8801828861788",
-              "email": "support@codzshop.com",
-              "sameAs": ["https://facebook.com/codzshop"],
+              "email": "support@gmshopbd.com",
+              "sameAs": ["https://facebook.com/gmshopbd"],
               "priceRange": "৳৳",
               "makesOffer": [
                 {
@@ -113,7 +113,7 @@
                   "itemOffered": {
                     "@type": "Service",
                     "name": "PUBG UC Top-Up",
-                    "description": "Buy PUBG Mobile UC safely and quickly from Codzshop."
+                    "description": "Buy PUBG Mobile UC safely and quickly from gmshopbd."
                   }
                 }
               ]

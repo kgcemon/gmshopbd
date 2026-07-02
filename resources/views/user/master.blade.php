@@ -11,7 +11,7 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#131031">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" href="https://Codzshop.com/logo.png">
+    <link rel="apple-touch-icon" href="/logo.png">
     <meta name="msapplication-navbutton-color" content="#131031">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
@@ -21,26 +21,26 @@
 
 
     <!-- Dynamic SEO -->
-    <title>@yield('title', config('app.name', 'Codzshop'))</title>
-    <meta name="description" content="@yield('meta_description', 'Best Free Fire Top Up & Gaming Shop in Bangladesh - Codzshop')">
-    <meta name="keywords" content="@yield('meta_keywords', 'Free Fire Top Up, Codzshop, Gaming Shop, Diamond Recharge')">
-    <meta name="author" content="Codzshop">
+    <title>@yield('title', config('app.name', 'Gmshopbd'))</title>
+    <meta name="description" content="@yield('meta_description', 'Best Free Fire Top Up & Gaming Shop in Bangladesh - gmshopbd')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Free Fire Top Up, gmshopbd, Gaming Shop, Diamond Recharge')">
+    <meta name="author" content="gmshopbd">
     <link rel="canonical" href="{{ url()->current() }}">
     <meta name="robots" content="@yield('meta_robots', 'index, follow')">
 
     <!-- Open Graph (Facebook / Social Sharing) -->
     <meta property="fb:app_id" content="761644065407232" />
     <meta property="og:type" content="website">
-    <meta property="og:title" content="@yield('og_title', config('app.name', 'Codzshop'))">
+    <meta property="og:title" content="@yield('og_title', config('app.name', 'gmshopbd'))">
     <meta property="og:description" content="@yield('og_description', 'Fast & Secure FF Diamonds Top Up in Bangladesh')">
     <meta property="og:image" content="@yield('og_image', asset('assets/images/og-default.png'))">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:site_name" content="{{ config('app.name', 'Codzshop') }}">
+    <meta property="og:site_name" content="{{ config('app.name', 'gmshopbd') }}">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="@yield('twitter_title', config('app.name', 'Codzshop'))">
-    <meta name="twitter:description" content="@yield('twitter_description', 'Buy Free Fire Diamonds & Game Credits use Codzshop')">
+    <meta name="twitter:title" content="@yield('twitter_title', config('app.name', 'gmshopbd'))">
+    <meta name="twitter:description" content="@yield('twitter_description', 'Buy Free Fire Diamonds & Game Credits use gmshopbd')">
     <meta name="twitter:image" content="@yield('twitter_image', asset('assets/images/og-default.png'))">
 
     <!-- Favicon -->
@@ -292,7 +292,7 @@
 <header>
     <div class="nav-container">
         <!-- Logo -->
-        <a href="{{ url('/') }}" class="logo">{{ config('app.name', 'Codzshop') }}</a>
+        <a href="{{ url('/') }}" class="logo">{{ config('app.name', 'gmshopbd') }}</a>
 
         @auth
             <!-- Wallet + Balance + Profile -->

@@ -1,14 +1,14 @@
 @extends('user.master')
 
-@section('title', "About Codzshop")
+@section('title', "About gmshopbd")
 
 @section('content')
 <!-- Main Content -->
 <main style="padding: 20px; padding-bottom: 80px;">
     <div class="panelData">
-        <h1>About Codzshop.com</h1>
+        <h1>About gmshopbd.com</h1>
         <p style="margin-top: 15px; line-height: 1.6;">
-            Welcome to <strong>Codzshop.com</strong> – your trusted platform for <strong>Free Fire Diamonds</strong>!
+            Welcome to <strong>gmshopbd.com</strong> – your trusted platform for <strong>Free Fire Diamonds</strong>!
             We provide a fast, reliable, and fully automated delivery system for all your Free Fire Diamond purchases.
             Our goal is to make sure you receive your diamonds instantly, safely, and securely, so you can enjoy your game without any delays.
         </p>

@@ -19,7 +19,7 @@ let deferredPrompt;window.addEventListener("beforeinstallprompt",e=>{e.preventDe
             gap: 12px;
         ">
             <!-- Logo -->
-            <img src="https://Codzshop.com/icon.png" alt="logo" style="
+            <img src="https://gmshopbd.com/icon.png" alt="logo" style="
                 width: 48px;
                 height: 48px;
                 border-radius: 12px;
@@ -29,7 +29,7 @@ let deferredPrompt;window.addEventListener("beforeinstallprompt",e=>{e.preventDe
 
             <!-- Title + Description -->
             <div style="flex: 1; text-align: left;">
-                <h3 style="margin:0; font-size: 1rem; font-weight: 700;">Install Codzshop</h3>
+                <h3 style="margin:0; font-size: 1rem; font-weight: 700;">Install gmshopbd</h3>
                 <p style="margin:4px 0 0; font-size: 0.85rem; opacity: 0.9;">আমাদের App ডাউনলোড করুন</p>
             </div>
 

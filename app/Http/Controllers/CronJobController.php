@@ -32,8 +32,8 @@ class CronJobController extends Controller
                     }
                     continue;
                 }
-              
-              
+
+
 
                 if ($order->item->type === "social"){
                     $success = $this->social($order);
@@ -124,13 +124,13 @@ class CronJobController extends Controller
 //                            "denom"      => $d,
 //                            "type"       => $type,
 //                            "voucherCode"=> $code->code,
-//                            "webhook"    => "https://Codzshop.com/api/auto-webhooks",
+//                            "webhook"    => "https://gmshopbd.com/api/auto-webhooks",
 
                             "playerid" => "$order->customer_data",
                             "pacakge" => $this->denomToPkge($d),
                             "code" => "$code->code",
                             "orderid" => $uid,
-                            "url" => "https://Codzshop.com/api/auto-webhooks",
+                            "url" => "https://gmshopbd.com/api/auto-webhooks",
                             "tgbotid" => "701657976",
                             "shell_balance" => 28,
                             "ourstock" => 1
@@ -244,12 +244,12 @@ class CronJobController extends Controller
                 "pacakge" => "$denom",
                 "code" => "shell",
                 "orderid" => $order->id,
-                "url" => "https://Codzshop.com/api/auto-webhooks",
+                "url" => "https://gmshopbd.com/api/auto-webhooks",
                 "username" => "643356853",
                 "password" => "Sozib2500@",
                 "autocode" => "LOVTJGVQCLS5WW6K",
                 //"username" => "668106777",
-                //"password" => "Codzshop345@",
+                //"password" => "gmshopbd345@",
                 //"autocode" => "REX7FSM44ANMSP2S",
                 "tgbotid" => "701657976",
                 "shell_balance" => 28,
@@ -274,7 +274,7 @@ private function social($order): bool
   $service = $order->item->denom;
   $link = $order->customer_data;
   $quantity = $order->item->description;
-  
+
     $response = Http::post("https://smmprovider.co/api/v2", [
         "key"      => "82c65db32312e62248faf06e9a59b48b",
         "action"   => "add",

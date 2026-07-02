@@ -5,4 +5,4 @@ Disallow: /my-orders/
 Disallow: /order/
 Disallow: /thank-you/
 
-Sitemap: https://codzshop.com/sitemap.xml
+Sitemap: https://gmshopbd.com/sitemap.xml

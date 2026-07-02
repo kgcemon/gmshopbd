@@ -170,7 +170,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center mb-3">
-                        <h4 class="fw-bold">Codzshop</h4>
+                        <h4 class="fw-bold">gmshopbd</h4>
                         <small class="text-muted">Customer Receipt</small>
                         <hr>
                     </div>
