@@ -283,7 +283,7 @@
     @endif
 
     @if (Request::is('product*') || Request::is('thank-you*') || Request::is('deposit*'))
-    <link rel="stylesheet" href="{{ asset('assets/user/product.css') }}" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="{{ asset('assets/user/product.css?v=1') }}" as="style" onload="this.rel='stylesheet'">
     @endif
     @stack('head')
 </head>
