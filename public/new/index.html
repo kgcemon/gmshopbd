@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Codzshop - Free Fire Top Up</title>
+
+<link rel="manifest" href="https://codzshop.com/manifest.json">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    margin:0;
+    font-family:'Roboto',sans-serif;
+    background:#fff;
+    color:#202124;
+}
+
+.topbar{
+    position:sticky;
+    top:0;
+    background:#fff;
+    padding:14px 16px;
+    border-bottom:1px solid #e0e0e0;
+    display:flex;
+    gap:12px;
+    align-items:center;
+}
+
+.logo-text{font-size:18px;font-weight:600;}
+
+.search{
+    flex:1;
+    background:#f1f3f4;
+    padding:10px 14px;
+    border-radius:25px;
+    font-size:14px;
+    color:#5f6368;
+}
+
+.container{
+    max-width:520px;
+    margin:auto;
+    padding:15px;
+}
+
+.app-header{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+}
+
+.icon{
+    width:90px;
+    height:90px;
+    border-radius:20px;
+    object-fit:cover;
+    border:1px solid #e0e0e0;
+}
+
+h1{margin:0;font-size:24px;}
+
+.dev{color:#1a73e8;font-size:14px;margin-top:5px;}
+
+.badge{
+    display:inline-block;
+    margin-top:8px;
+    font-size:12px;
+    background:#f1f3f4;
+    padding:4px 10px;
+    border-radius:20px;
+    color:#5f6368;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-between;
+    margin-top:18px;
+    padding:12px 0;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+}
+
+.stat{text-align:center;flex:1;}
+
+.stat h3{margin:0;font-size:14px;}
+.stat p{margin:4px 0 0;font-size:12px;color:#5f6368;}
+
+.install-btn{
+    width:100%;
+    margin-top:18px;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#1a73e8;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+}
+
+/* TABS */
+.tabs{
+    display:flex;
+    margin-top:20px;
+    border-bottom:1px solid #eee;
+}
+
+.tab{
+    flex:1;
+    text-align:center;
+    padding:12px;
+    cursor:pointer;
+    font-weight:500;
+    color:#5f6368;
+}
+
+.tab.active{
+    color:#1a73e8;
+    border-bottom:2px solid #1a73e8;
+}
+
+/* CONTENT */
+.section{display:none;margin-top:15px;}
+.section.active{display:block;}
+
+/* ABOUT */
+.about{
+    font-size:14px;
+    line-height:1.6;
+    color:#3c4043;
+}
+
+/* SCREENS */
+.screens{
+    display:flex;
+    gap:10px;
+    overflow-x:auto;
+}
+
+.screen{
+    min-width:180px;
+    height:320px;
+    border-radius:12px;
+    border:1px solid #e0e0e0;
+}
+
+.screen img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+/* REVIEWS */
+.review-box{
+    padding:12px;
+    border-bottom:1px solid #eee;
+}
+
+.review-head{
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+}
+
+.stars{
+    color:#fbbc05;
+    font-size:14px;
+}
+
+.rating-overview{
+    display:flex;
+    gap:15px;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.big-rating{
+    font-size:32px;
+    font-weight:700;
+}
+
+.bar{
+    height:6px;
+    background:#eee;
+    border-radius:5px;
+    overflow:hidden;
+}
+
+.bar span{
+    display:block;
+    height:100%;
+    background:#1a73e8;
+}
+
+/* MODAL */
+.modal{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.7);
+    display:none;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.modal-box{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    width:90%;
+    max-width:320px;
+    text-align:center;
+}
+
+.modal-box button{
+    background:#1a73e8;
+    color:white;
+    border:none;
+    padding:12px;
+    width:100%;
+    border-radius:8px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MODAL -->
+<div id="browserModal" class="modal">
+  <div class="modal-box">
+    <h3>Open in Chrome</h3>
+    <p>This app works best in Google Chrome</p>
+    <button onclick="openChromeNow()">Open Chrome</button>
+  </div>
+</div>
+
+<div class="topbar">
+    <div class="logo-text">Google Play</div>
+    <div class="search">Search apps & games</div>
+</div>
+
+<div class="container">
+
+<div class="app-header">
+    <img src="https://codzshop.com/logo.png" class="icon">
+    <div>
+        <h1>Codzshop</h1>
+        <div class="dev">Free Fire Top Up Official</div>
+        <div class="badge">Gaming • Diamonds • Fast Delivery</div>
+    </div>
+</div>
+
+<div class="stats">
+    <div class="stat"><h3>4.9★</h3><p>50K reviews</p></div>
+    <div class="stat"><h3>1M+</h3><p>Downloads</p></div>
+    <div class="stat"><h3>Fast</h3><p>Delivery</p></div>
+</div>
+
+<button id="installBtn" class="install-btn">Install</button>
+
+<!-- TABS -->
+<div class="tabs">
+    <div class="tab active" onclick="openTab(0)">About</div>
+    <div class="tab" onclick="openTab(1)">Screenshots</div>
+    <div class="tab" onclick="openTab(2)">Reviews</div>
+</div>
+
+<!-- ABOUT -->
+<div class="section active">
+    <div class="about">
+        Codzshop is an official Free Fire top-up platform.  
+        Get diamonds instantly with secure payment system and fast delivery.  
+        Trusted by thousands of gamers across Bangladesh.
+    </div>
+</div>
+
+<!-- SCREENSHOTS -->
+<div class="section">
+    <div class="screens">
+        <div class="screen"><img src="https://codzshop.com/new/1.png"></div>
+        <div class="screen"><img src="https://codzshop.com/new/2.png"></div>
+        <div class="screen"><img src="https://codzshop.com/new/3.png"></div>
+    </div>
+</div>
+
+<!-- REVIEWS -->
+<div class="section">
+
+<div class="rating-overview">
+    <div class="big-rating">4.9</div>
+    <div style="flex:1">
+        <div class="bar"><span style="width:95%"></span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+        <div class="bar"><span style="width:60%"></span></div>
+    </div>
+</div>
+
+<div class="review-box">
+    <div class="review-head">
+        <b>Rakib</b>
+        <div class="stars">★★★★★</div>
+    </div>
+    Fast delivery, খুব ভালো service 👍
+</div>
+
+<div class="review-box">
+    <div class="review-head">
+        <b>Jony</b>
+        <div class="stars">★★★★★</div>
+    </div>
+    Instant diamond received. Recommended!
+</div>
+
+<div class="review-box">
+    <div class="review-head">
+        <b>Sabbir</b>
+        <div class="stars">★★★★☆</div>
+    </div>
+    Good app but sometimes delay happens.
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+/* tabs */
+function openTab(i){
+    document.querySelectorAll(".tab").forEach((t,idx)=>{
+        t.classList.toggle("active", idx===i);
+    });
+    document.querySelectorAll(".section").forEach((s,idx)=>{
+        s.classList.toggle("active", idx===i);
+    });
+}
+
+/* chrome detect */
+function isInAppBrowser(){
+    const ua = navigator.userAgent.toLowerCase();
+    return ua.includes("fbav") || ua.includes("instagram") || ua.includes("messenger") || ua.includes("wv");
+}
+
+function openChromeNow(){
+    const url="https://codzshop.com/new";
+    const intent="intent://"+url.replace("https://","")+"#Intent;scheme=https;package=com.android.chrome;end";
+    window.location.replace(intent);
+}
+
+/* auto check */
+window.addEventListener("load",()=>{
+    if(isInAppBrowser()){
+        setTimeout(openChromeNow,300);
+        setTimeout(()=>document.getElementById("browserModal").style.display="flex",800);
+    }
+});
+
+/* install */
+let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt',(e)=>{
+    e.preventDefault();
+    deferredPrompt=e;
+});
+
+document.getElementById("installBtn").addEventListener("click",async(e)=>{
+    if(deferredPrompt){
+        deferredPrompt.prompt();
+        const res=await deferredPrompt.userChoice;
+        e.target.innerText=res.outcome==="accepted"?"Installed":"Install";
+        deferredPrompt=null;
+    }else{
+        openChromeNow();
+    }
+});
+
+/* service worker */
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('https://codzshop.com/service-worker.js');
+}
+
+</script>
+
+</body>
+</html>
