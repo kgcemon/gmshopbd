@@ -42,8 +42,8 @@ return [
         ],
 
         'admin' => [
-            'driver' => 'session', // যদি শুধু admin panel হয়
-            'provider' => 'admins',
+            'driver' => 'session',
+            'provider' => 'users',
         ],
     ],
 
