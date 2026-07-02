@@ -292,7 +292,7 @@
 <header>
     <div class="nav-container">
         <!-- Logo -->
-        <a href="{{ url('/') }}" class="logo">{{ config('app.name', 'gmshopbd') }}</a>
+        <a href="{{ url('/') }}" class="logo">{{ config('app.name', 'GmshopBD') }}</a>
 
         @auth
             <!-- Wallet + Balance + Profile -->
