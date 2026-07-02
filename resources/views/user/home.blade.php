@@ -46,14 +46,6 @@
             </p></div>
     </div>
 
-    <div class="card" style="margin: 15px">
-        <h2>Support</h2>
-        <div class="card-title"><p>
-                Call: 01828861788 <br>
-                whatsApp: 01828861788 <br>
-                facebook : <a href="https://m.me/gmshopbd">gmshopbd</a>
-            </p></div>
-    </div>
     <br>
 
     <div class="card">
